@@ -115,3 +115,13 @@ models, _, _ = load_model(
     model_path,
 )
 ```
+
+# Miễn trừ trách nhiệm
+---
+Phần mềm này được cung cấp "nguyên trạng", **không có bất kỳ cam kết hoặc bảo đảm nào**, dù rõ ràng hay ngụ ý, bao gồm nhưng không giới hạn ở các bảo đảm về khả năng thương mại, sự phù hợp cho một mục đích cụ thể hoặc không vi phạm quyền của bên thứ ba.
+
+**Tác giả và các cộng tác viên không chịu trách nhiệm** đối với bất kỳ thiệt hại, mất mát dữ liệu, hoặc các hậu quả pháp lý nào phát sinh từ việc sử dụng hoặc sử dụng sai phần mềm này.
+
+Người dùng hoàn toàn tự chịu trách nhiệm khi sử dụng phần mềm. Vui lòng đảm bảo bạn hiểu rõ các điều khoản cấp phép và tuân thủ các quy định pháp luật hiện hành khi sử dụng phần mềm này.
+
+Nếu phần mềm được sử dụng để xử lý dữ liệu giọng nói hoặc nhận dạng cá nhân, **không sử dụng vào các mục đích xâm phạm quyền riêng tư, mạo danh, theo dõi, hoặc các hành vi vi phạm pháp luật và đạo đức.**
