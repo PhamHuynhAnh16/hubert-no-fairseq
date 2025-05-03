@@ -1,0 +1,4 @@
+torch
+omegaconf
+numpy
+librosa
