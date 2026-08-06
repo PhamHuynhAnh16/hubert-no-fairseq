@@ -12,7 +12,7 @@ from fairseq.fairseq import load_model
 is_half = False
 output_layers = 12
 input_audio = "test.wav"
-input_hubert = "hubert_base_safe.pt"
+input_hubert = "hubert_base.pt"
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
 model = load_model(input_hubert, unsafe_weight_allow=False)
@@ -33,7 +33,7 @@ feats = feats.view(1, -1)
 model.eval().to(device).to(torch.float16 if is_half else torch.float32).eval()
 
 with torch.no_grad():
-    logits = model.extract_features(**{"source": feats, "output_layer": output_layers})
+    logits = model.extract_features(source=feats, output_layer=output_layers)
     feats = logits[0]
 
 print("Output:", feats.shape)
